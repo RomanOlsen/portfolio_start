@@ -24,12 +24,26 @@
       <div class="col-12 col-md-3">
         <div class="card mb-4 hover-pop shadow">
           <div class="card-header fw-bold">
+            Project U
+          </div>
+          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\projectU.png" alt="">
+          <div class="card-footer text-center">
+            Worked with 2 other people to create a food logger/nutrition app.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <div class="card mb-4 hover-pop shadow">
+          <div class="card-header fw-bold">
             Keeper
-            <img class="keeper-icon" src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper-logo.png" alt="my custom logo" title="my custom logo">
+            <img class="keeper-icon"
+              src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper-logo.png"
+              alt="my custom logo" title="my custom logo">
           </div>
           <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper.png" alt="">
           <div class="card-footer text-center">
-            A pinterest-inspired site. Click to view more!
+            A pinterest-inspired site.
           </div>
         </div>
 
@@ -43,7 +57,7 @@
           </div>
           <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\tower.png" alt="">
           <div class="card-footer text-center">
-            A eventBrite-inspired site. Click to view more!
+            An eventBrite-inspired site.
           </div>
         </div>
 
@@ -69,7 +83,7 @@
             COMING SOON
 
           </div>
-         
+
           <div class="card-footer text-center">
             Is in the works. Hint: is related to meditation.
           </div>
@@ -77,7 +91,7 @@
 
 
       </div>
-            <div class="col-12 mb-4 col-md-3">
+      <div class="col-12 mb-4 col-md-3">
         <div class="card hover-pop shadow">
           <div class="card-header fw-bold">
             YouTube Channel
@@ -141,17 +155,21 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-.keeper-icon{
+
+.keeper-icon {
   height: 2rem;
 }
-.card{
+
+.card {
   aspect-ratio: 1/1;
-  
+
 }
-.card-footer{
+
+.card-footer {
   flex-grow: 1;
   // text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 </style>
