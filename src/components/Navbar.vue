@@ -17,11 +17,12 @@ watch(theme, () => {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md bg-codeworks border-bottom border-vue">
+  <nav class="navbar navbar-expand-md bg-black border-bottom border-vue">
     <div class="container gap-2">
       <RouterLink :to="{ name: 'Home' }" class="d-flex align-items-center text-light">
-        <img class="navbar-brand" alt="logo" src="/img/cw-logo.png" height="45" />
-        <b class="fs-5">Vue Starter</b>
+        <img class="navbar-brand" alt="logo"
+          src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\GrayscalePFP.png" height="45" />
+        <b class="fs-5">Roman Olsen</b>
       </RouterLink>
       <!-- collapse button -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
@@ -29,23 +30,55 @@ watch(theme, () => {
         <span class="mdi mdi-menu text-light"></span>
       </button>
       <!-- collapsing menu -->
-      <div class="collapse navbar-collapse " id="navbar-links">
+      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbar-links">
         <ul class="navbar-nav">
           <li>
             <RouterLink :to="{ name: 'About' }" class="btn text-green selectable">
-              About
+              About Me
             </RouterLink>
           </li>
+
+
+
         </ul>
+        <div class="text-light">
+
+          <a href="https://github.com/RomanOlsen/" target="_blank" rel="noopener noreferrer">
+            <span class="btn text-light selectable mdi mdi-github"> GitHub</span>
+
+          </a>
+          <a href="https://www.linkedin.com/in/romanolsen1/" target="_blank" rel="noopener noreferrer">
+
+            <span class="btn text-light selectable mdi mdi-linkedin"> LinkedIn</span>
+
+          </a>
+          <a href="https://x.com/RomanOlsenHQ" target="_blank" rel="noopener noreferrer">
+
+            <span class="btn text-light selectable mdi mdi-twitter"> Twitter</span>
+
+
+          </a>
+          <a href="https://www.youtube.com/RomanOnFire" target="_blank" rel="noopener noreferrer">
+
+            <span class="btn text-light selectable mdi mdi-youtube"> YouTube</span>
+
+
+          </a>
+
+
+
+
+
+        </div>
         <!-- LOGIN COMPONENT HERE -->
-        <div class="ms-auto">
+        <!-- <div class="ms-auto">
           <button class="btn text-light" @click="toggleTheme"
             :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
             <i v-if="theme == 'dark'" class="mdi mdi-weather-sunny"></i>
             <i v-if="theme == 'light'" class="mdi mdi-weather-night"></i>
           </button>
-        </div>
-        <Login />
+        </div> -->
+
       </div>
     </div>
   </nav>
@@ -64,5 +97,9 @@ a {
   border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.navbar-brand {
+  border-radius: 50%;
 }
 </style>

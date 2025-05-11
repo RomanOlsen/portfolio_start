@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router';
   <header>
     <Navbar />
   </header>
-  <main>
+  <main class="exo">
     <RouterView/>
   </main>
   <!-- <footer class=" text-center">
