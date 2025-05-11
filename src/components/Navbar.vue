@@ -43,22 +43,22 @@ watch(theme, () => {
         </ul>
         <div class="text-light">
 
-          <a href="https://github.com/RomanOlsen/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RomanOlsen/" target="_blank" rel="noopener noreferrer" title="View my github!">
             <span class="btn text-light selectable mdi mdi-github"> GitHub</span>
 
           </a>
-          <a href="https://www.linkedin.com/in/romanolsen1/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/romanolsen1/" target="_blank" rel="noopener noreferrer" title="View my linkedin">
 
             <span class="btn text-light selectable mdi mdi-linkedin"> LinkedIn</span>
 
           </a>
-          <a href="https://x.com/RomanOlsenHQ" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/RomanOlsenHQ" target="_blank" rel="noopener noreferrer" title="View my Twitter/X profile!">
 
             <span class="btn text-light selectable mdi mdi-twitter"> Twitter</span>
 
 
           </a>
-          <a href="https://www.youtube.com/RomanOnFire" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/RomanOnFire" target="_blank" rel="noopener noreferrer" title="View my youtube channel where I have over 4k subscribers!">
 
             <span class="btn text-light selectable mdi mdi-youtube"> YouTube</span>
 
