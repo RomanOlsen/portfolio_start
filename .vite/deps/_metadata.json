@@ -1,0 +1,40 @@
+{
+  "hash": "8c9190bd",
+  "configHash": "836ed2ef",
+  "lockfileHash": "e923fa87",
+  "browserHash": "e85a07c9",
+  "optimized": {
+    "bootstrap/dist/js/bootstrap.bundle.js": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+      "file": "bootstrap_dist_js_bootstrap__bundle__js.js",
+      "fileHash": "d5f60aa4",
+      "needsInterop": true
+    },
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "b92ff03f",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "daf49a36",
+      "needsInterop": false
+    },
+    "@bcwdev/auth0provider-client": {
+      "src": "../../node_modules/@bcwdev/auth0provider-client/lib/index.js",
+      "file": "@bcwdev_auth0provider-client.js",
+      "fileHash": "402324df",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-IJV5NOMV": {
+      "file": "chunk-IJV5NOMV.js"
+    },
+    "chunk-DZZM6G22": {
+      "file": "chunk-DZZM6G22.js"
+    }
+  }
+}

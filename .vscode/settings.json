@@ -1,0 +1,50 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "vue.codeActions.enabled": true,
+  "vue.codeLens.enabled": true,
+  "vue.splitEditors.icon": true,
+  "eslint.useFlatConfig": true,
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.debug": true,
+  "eslint.format.enable": true,
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#6bddaa",
+    "statusBar.background": "#42d392",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#2bb778",
+    "statusBarItem.remoteBackground": "#42d392",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#42d392",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#42d39299",
+    "titleBar.inactiveForeground": "#15202b99",
+    "activityBar.activeBackground": "#6bddaa",
+    "activityBar.background": "#6bddaa",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#a663db",
+    "activityBarBadge.foreground": "#15202b"
+  },
+  "peacock.color": "#42d392",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
