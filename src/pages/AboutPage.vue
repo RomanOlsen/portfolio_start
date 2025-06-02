@@ -42,9 +42,7 @@
 
 
 
-          <img class="education img-fluid"
-            src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/cw-logo-circle.png"
-            alt="CodeWorks">
+          <img class="education img-fluid" src="@/assets/img/cw-logo-circle.png" alt="CodeWorks">
           <div class="pt-2">
             <a href="https://boisecodeworks.com/" target="_blank" rel="noopener noreferrer"
               title="View my software development school">CodeWorks
@@ -55,9 +53,7 @@
 
         <div class="col-6 text-center">
 
-          <img class="education img-fluid"
-            src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/OneStone+-+Stacked.png"
-            alt="One Stone">
+          <img class="education img-fluid" src="@/assets/img/OneStone+-+Stacked.png" alt="One Stone">
           <div class="pt-2">
             <a href="https://onestone.org/" target="_blank" rel="noopener noreferrer"
               title="View my highschool i went to">One Stone
