@@ -43,7 +43,8 @@
 
 
           <img class="education img-fluid"
-            src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\cw-logo-circle.png" alt="CodeWorks">
+            src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/cw-logo-circle.png"
+            alt="CodeWorks">
           <div class="pt-2">
             <a href="https://boisecodeworks.com/" target="_blank" rel="noopener noreferrer"
               title="View my software development school">CodeWorks
@@ -55,7 +56,7 @@
         <div class="col-6 text-center">
 
           <img class="education img-fluid"
-            src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\OneStone+-+Stacked.png"
+            src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/OneStone+-+Stacked.png"
             alt="One Stone">
           <div class="pt-2">
             <a href="https://onestone.org/" target="_blank" rel="noopener noreferrer"
@@ -64,7 +65,7 @@
 
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>

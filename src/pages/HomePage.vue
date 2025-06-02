@@ -26,7 +26,7 @@
           <div class="card-header fw-bold">
             Project U
           </div>
-          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\projectU.png" alt="">
+          <img src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/ProjectU.png" alt="">
           <div class="card-footer text-center">
             Worked with 2 other people to create a food logger/nutrition app.
           </div>
@@ -38,10 +38,10 @@
           <div class="card-header fw-bold">
             Keeper
             <img class="keeper-icon"
-              src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper-logo.png"
+              src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/keeper-logo.png"
               alt="my custom logo" title="my custom logo">
           </div>
-          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper.png" alt="">
+          <img src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/Keeper.png" alt="">
           <div class="card-footer text-center">
             A pinterest-inspired site.
           </div>
@@ -55,7 +55,7 @@
             TowerBrite
 
           </div>
-          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\tower.png" alt="">
+          <img src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/tower.png" alt="">
           <div class="card-footer text-center">
             An eventBrite-inspired site.
           </div>
@@ -69,7 +69,7 @@
             The Instagram Network
 
           </div>
-          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\network.png" alt="">
+          <img src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/network.png" alt="">
           <div class="card-footer text-center">
             Social media platform. Name inspiration from The Social Network movie
           </div>
@@ -97,7 +97,7 @@
             YouTube Channel
 
           </div>
-          <img src="C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\yt.png" alt="">
+          <img src="/Users/romanolsen/source/Projects/Portfolio/portfolio_start/src/assets/img/yt.png" alt="">
           <div class="card-footer text-center">
             Ongoing project!
           </div>
