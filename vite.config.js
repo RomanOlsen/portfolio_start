@@ -27,6 +27,7 @@ export default defineConfig({
   },
 
   // NOTE If deploying to gh-pages uncomment the line below (https://vitejs.dev/config/shared-options.html#base)
-  base: '/portfolio_start/'
+  // base: '/portfolio_start/'
+  // NOTE we are now using vercel instead.
 })
 
