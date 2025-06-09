@@ -21,6 +21,21 @@
     <div class="row">
       <h1 class="fs-1 text-center py-3">Projects</h1>
 
+      <div class="col-12 mb-4 col-md-3">
+        <div class="card hover-pop shadow">
+          <div class="card-header fw-bold">
+           <a href="https://www.imeditated.com" target="_blank" rel="noopener noreferrer" title="Check it out"> imeditated.com
+           </a>
+          </div>
+    <img src="@/assets/img/I meditated.com (600 x 600 px) (1).png" alt="">
+          <div class="card-footer text-center">
+            Meditation habit-tracking app. Had a ton of fun making this.
+          </div>
+        </div>
+
+
+      </div>
+
       <div class="col-12 col-md-3">
         <div class="card mb-4 hover-pop shadow">
           <div class="card-header fw-bold">
@@ -78,20 +93,7 @@
 
 
       </div>
-      <div class="col-12 mb-4 col-md-3">
-        <div class="card hover-pop shadow">
-          <div class="card-header fw-bold">
-            COMING SOON
 
-          </div>
-
-          <div class="card-footer text-center">
-            Is in the works. Hint: is related to meditation.
-          </div>
-        </div>
-
-
-      </div>
       <div class="col-12 mb-4 col-md-3">
         <div class="card hover-pop shadow">
           <div class="card-header fw-bold">
