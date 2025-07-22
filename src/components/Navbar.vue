@@ -37,6 +37,11 @@ watch(theme, () => {
               About Me
             </RouterLink>
           </li>
+                    <li>
+            <RouterLink :to="{ name: 'Games' }" class="btn text-green selectable">
+              Games
+            </RouterLink>
+          </li>
 
 
 
