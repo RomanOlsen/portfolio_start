@@ -4,8 +4,9 @@
 
 
 <template>
-Games
- <a href="https://romanolsen.com/megarocket" target="_blank" rel="noopener noreferrer" title="play megarocket"> Megarocket </a>
+  <h1 class="text-center">Games</h1>
+  <p class="text-center">Here are some of the games I've created:</p>
+<a href="/megarocket" title="play megarocket"> Megarocket </a>
 </template>
 
 
