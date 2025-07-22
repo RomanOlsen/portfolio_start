@@ -5,7 +5,7 @@
 
 <template>
 Games
- <a href="https://romanolsen.com/megarocket" target="_blank" rel="noopener noreferrer" title="play megarocket">
+ <a href="https://romanolsen.com/megarocket" target="_blank" rel="noopener noreferrer" title="play megarocket"> Megarocket </a>
 </template>
 
 
