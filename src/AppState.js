@@ -25,26 +25,26 @@ export const AppState = reactive({
     }),
     new Project({
       name: 'Keeper',
-      description: 'A pinterest-inspired site.',
+      description: `A pinterest-inspired site. CodeWork's final assignment.`,
       icon: 'keeper-logo.png',
       image: "Keeper.png",
       link: 'https://github.com/RomanOlsen/keeper',
       tags: ['CodeWorks', 'Fullstack', 'Vue', 'C# .NET', 'SQL']
     }),
-    new Project({
-      name: 'TowerBrite',
-      description: 'An eventBrite-inspired site.',
-      image: "tower.png",
-      link: 'https://github.com/RomanOlsen/tower',
-      tags: ['CodeWorks', 'Fullstack', 'Vue', 'Node']
-    }),
-    new Project({
-      name: 'The Instagram Network',
-      description: 'Social media platform. Name inspiration from The Social Network movie',
-      image: "network.png",
-      link: 'https://github.com/RomanOlsen/network',
-      tags: ['CodeWorks', 'Vue']
-    }),
+    // new Project({
+    //   name: 'TowerBrite',
+    //   description: 'An eventBrite-inspired site.',
+    //   image: "tower.png",
+    //   link: 'https://github.com/RomanOlsen/tower',
+    //   tags: ['CodeWorks', 'Fullstack', 'Vue', 'Node']
+    // }),
+    // new Project({
+    //   name: 'The Instagram Network',
+    //   description: 'Social media platform. Name inspiration from The Social Network movie',
+    //   image: "network.png",
+    //   link: 'https://github.com/RomanOlsen/network',
+    //   tags: ['CodeWorks', 'Vue']
+    // }),
 
   ],
   /** @type {import('./models/Project.js').Project[]} */

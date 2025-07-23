@@ -26,7 +26,7 @@ const projects = AppState.projects
       <h1 class="fs-1 text-center py-3">Projects</h1>
 
 
-      <div v-for="project in projects" :key="project.name">
+      <div v-for="project in projects" :key="project.name" class="col-12">
         <ProjectCard :project="project" />
       </div>
 
@@ -92,36 +92,6 @@ const projects = AppState.projects
 }
 
 .tshadow2 {
-  text-shadow: 1px 1px 0.1rem rgb(0, 247, 123);
-}
-
-// .keeper {
-//   // background-image: url(C:\Users\Roman\source\codeworks\May\portfolio_start\src\assets\img\keeper-logo.png);
-// }
-
-.hover-pop {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hover-pop:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.keeper-icon {
-  height: 2rem;
-}
-
-.card {
-  aspect-ratio: 1/1;
-
-}
-
-.card-footer {
-  flex-grow: 1;
-  // text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-shadow: 1px 1px 0.1rem #00f77b;
 }
 </style>
