@@ -42,21 +42,20 @@ const projects = AppState.projects
 
 
 
-
+<!--
       <div class="col-12 mb-4 col-md-3">
         <div class="card hover-pop shadow">
           <div class="card-header fw-bold">
             YouTube Channel
-
           </div>
           <img src="/img/yt.png" alt="">
           <div class="card-footer text-center">
             Ongoing project!
           </div>
         </div>
+      </div> -->
 
 
-      </div>
     </div>
   </div>
   <!-- <div class="container">

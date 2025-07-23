@@ -8,7 +8,9 @@ export class Project {
    * @property {string} link
    * @property {string[]} tags
    * @property {string} [icon]
-   *
+   * @property {string} [date]
+   * @property {string} [github]
+   * 
    * @param {ProjectData} data
    */
   constructor(data) {
@@ -17,6 +19,11 @@ export class Project {
     this.image = data.image;
     this.link = data.link;
     this.tags = data.tags || [];
-    this.icon = data.icon
+    this.icon = data.icon,
+      this.date = new Date(data.date).toLocaleDateString('en-US', {
+        month: 'long',
+        year: 'numeric'
+      });
+    this.github = data.github;
   }
 }
