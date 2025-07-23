@@ -1,5 +1,9 @@
 <script setup>
+import { AppState } from '@/AppState.js';
+import ProjectCard from '@/components/ProjectCard.vue';
 
+
+const projects = AppState.projects
 
 
 </script>
@@ -10,7 +14,7 @@
       <div class="col-12 pt-5">
         <div class="text-center pt-5 mt-5">
           <div class="tshadow2 fs-1 text-uppercase fw-bold">Roman Olsen</div>
-          <div class="tshadow">Software Engineer | Digital Builder</div>
+          <div class="tshadow">Developer | Digital Builder | Entrepreneur</div>
 
         </div>
       </div>
@@ -21,79 +25,23 @@
     <div class="row">
       <h1 class="fs-1 text-center py-3">Projects</h1>
 
-      <div class="col-12 mb-4 col-md-3">
-        <div class="card hover-pop shadow">
-          <div class="card-header fw-bold justify-content-between d-flex">
-           <a href="https://www.imeditated.com" target="_blank" rel="noopener noreferrer" title="Check it out"> imeditated.com
-           </a>
-           <small class="bg-purple rounded px-2 py-1 text-light">Fullstack</small>
-          </div>
-    <img src="@/assets/img/I meditated.com (600 x 600 px) (1).png" alt="">
-          <div class="card-footer text-center">
-            Meditation habit-tracking app. Had a ton of fun making this.
-          </div>
-        </div>
 
-
+      <div v-for="project in projects" :key="project.name">
+        <ProjectCard :project="project" />
       </div>
 
-      <div class="col-12 col-md-3">
-        <div class="card mb-4 hover-pop shadow">
-          <div class="card-header fw-bold">
-            Project U
-          </div>
-          
-          <img src="@/assets/img/ProjectU.png" alt="">
-          <div class="card-footer text-center">
-            Worked with 2 other people to create a food logger/nutrition app.
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-3">
-        <div class="card mb-4 hover-pop shadow">
-          <div class="card-header fw-bold">
-            Keeper
-            <img class="keeper-icon"
-              src="@/assets/img/keeper-logo.png"
-              alt="my custom logo" title="my custom logo">
-          </div>
-          <img src="@/assets/img/Keeper.png" alt="">
-          <div class="card-footer text-center">
-            A pinterest-inspired site.
-          </div>
-        </div>
 
 
-      </div>
-      <div class="col-12 mb-4 col-md-3">
-        <div class="card hover-pop shadow">
-          <div class="card-header fw-bold fw-bold">
-            TowerBrite
-
-          </div>
-          <img src="@/assets/img/tower.png" alt="">
-          <div class="card-footer text-center">
-            An eventBrite-inspired site.
-          </div>
-        </div>
 
 
-      </div>
-      <div class="col-12 mb-4 col-md-3">
-        <div class="card hover-pop shadow">
-          <div class="card-header fw-bold">
-            The Instagram Network
-
-          </div>
-          <img src="@/assets/img/network.png" alt="">
-          <div class="card-footer text-center">
-            Social media platform. Name inspiration from The Social Network movie
-          </div>
-        </div>
 
 
-      </div>
+
+
+
+
+
+
 
       <div class="col-12 mb-4 col-md-3">
         <div class="card hover-pop shadow">
@@ -101,7 +49,7 @@
             YouTube Channel
 
           </div>
-          <img src="@/assets/img/yt.png" alt="">
+          <img src="/img/yt.png" alt="">
           <div class="card-footer text-center">
             Ongoing project!
           </div>

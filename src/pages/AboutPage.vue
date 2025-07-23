@@ -53,7 +53,7 @@
 
         <div class="col-6 text-center">
 
-          <img class="education img-fluid" src="@/assets/img/OneStone+-+Stacked.png" alt="One Stone">
+          <img class="education img-fluid" src="/img/os.png" alt="One Stone">
           <div class="pt-2">
             <a href="https://onestone.org/" target="_blank" rel="noopener noreferrer"
               title="View my highschool i went to">One Stone
