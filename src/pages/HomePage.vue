@@ -23,9 +23,10 @@
 
       <div class="col-12 mb-4 col-md-3">
         <div class="card hover-pop shadow">
-          <div class="card-header fw-bold">
+          <div class="card-header fw-bold justify-content-between d-flex">
            <a href="https://www.imeditated.com" target="_blank" rel="noopener noreferrer" title="Check it out"> imeditated.com
            </a>
+           <small class="bg-purple rounded px-2 py-1 text-light">Fullstack</small>
           </div>
     <img src="@/assets/img/I meditated.com (600 x 600 px) (1).png" alt="">
           <div class="card-footer text-center">

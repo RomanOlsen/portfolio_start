@@ -2,11 +2,21 @@
 import { ref, watch } from 'vue';
 import { loadState, saveState } from '../utils/Store.js';
 import Login from './Login.vue';
+// import bootstrap from 'bootstrap';
 
 const theme = ref(loadState('theme') || 'light')
 
 function toggleTheme() {
   theme.value = theme.value == 'light' ? 'dark' : 'light'
+}
+
+function Collapse() {
+  document.getElementById("navbar-links1").classList.toggle("collapse");
+  document.getElementById("navbar-links2").classList.toggle("collapse");
+  // var collapse1 = new bootstrap.Collapse(document.getElementById('navbar-links1'));
+  // var collapse2 = new bootstrap.Collapse(document.getElementById('navbar-links2'));
+  // collapse1.toggle();
+  // collapse2.toggle();
 }
 
 watch(theme, () => {
@@ -20,50 +30,52 @@ watch(theme, () => {
   <nav class="navbar navbar-expand-md bg-black border-bottom border-vue">
     <div class="container gap-2">
       <RouterLink :to="{ name: 'Home' }" class="d-flex align-items-center text-light">
-        <img class="navbar-brand" alt="logo"
-          src="@/assets/img/GrayscalePFP.png" height="45" />
+        <img class="navbar-brand" alt="logo" src="@/assets/img/GrayscalePFP.png" height="45" />
         <b class="fs-5">Roman Olsen</b>
       </RouterLink>
       <!-- collapse button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button @click="Collapse()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbar-link" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="mdi mdi-menu text-light"></span>
       </button>
       <!-- collapsing menu -->
-      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbar-links">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse d-flex justify-content-between">
+        <ul class="navbar-nav" id="navbar-links1">
           <li>
             <RouterLink :to="{ name: 'About' }" class="btn text-green selectable">
               About Me
             </RouterLink>
           </li>
-                    <li>
+          <!-- <li>
             <RouterLink :to="{ name: 'Games' }" class="btn text-green selectable">
               Games
             </RouterLink>
-          </li>
+          </li> -->
 
 
 
         </ul>
-        <div class="text-light">
+        <div class="text-light" id="navbar-links2">
 
           <a href="https://github.com/RomanOlsen/" target="_blank" rel="noopener noreferrer" title="View my github!">
             <span class="btn text-light selectable mdi mdi-github"> GitHub</span>
 
           </a>
-          <a href="https://www.linkedin.com/in/romanolsen1/" target="_blank" rel="noopener noreferrer" title="View my linkedin">
+          <a href="https://www.linkedin.com/in/romanolsen1/" target="_blank" rel="noopener noreferrer"
+            title="View my linkedin">
 
             <span class="btn text-light selectable mdi mdi-linkedin"> LinkedIn</span>
 
           </a>
-          <a href="https://x.com/RomanOlsenHQ" target="_blank" rel="noopener noreferrer" title="View my Twitter/X profile!">
+          <a href="https://x.com/RomanOlsenHQ" target="_blank" rel="noopener noreferrer"
+            title="View my Twitter/X profile!">
 
             <span class="btn text-light selectable mdi mdi-twitter"> Twitter</span>
 
 
           </a>
-          <a href="https://www.youtube.com/RomanOnFire" target="_blank" rel="noopener noreferrer" title="View my youtube channel where I have over 4k subscribers!">
+          <a href="https://www.youtube.com/RomanOnFire" target="_blank" rel="noopener noreferrer"
+            title="View my youtube channel where I have over 4k subscribers!">
 
             <span class="btn text-light selectable mdi mdi-youtube"> YouTube</span>
 
