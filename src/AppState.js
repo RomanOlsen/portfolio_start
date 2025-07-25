@@ -10,8 +10,17 @@ export const AppState = reactive({
   account: null,
   projects: [
     new Project({
+      name: 'Coming Soon',
+      description: 'This project is coming soon. Stay tuned!',
+      image: 'mystery.jpg',
+      date: 'TBD',
+      github: '',
+      link: '',
+      tags: ['SaaS', 'Fitness']
+    }),
+    new Project({
       name: 'I Meditated',
-      description: 'Meditation habit-tracking app. Had a ton of fun making this.',
+      description: 'Meditation habit-tracking app created to solve my own problem.',
       image: 'imeditated.png',
       date: 'June 2025',
       github: 'https://github.com/RomanOlsen/imeditated',
@@ -20,7 +29,7 @@ export const AppState = reactive({
     }),
     new Project({
       name: 'Project U',
-      description: 'Worked with 2 other people to create a food logger/nutrition app',
+      description: 'CodeWorks capstone. Worked with 2 other people to create a food logger/nutrition app.',
       image: 'ProjectU.png',
       link: "",
       date: 'April 2025',
@@ -29,7 +38,7 @@ export const AppState = reactive({
     }),
     new Project({
       name: 'Keeper',
-      description: `A pinterest-inspired site. CodeWork's final assignment.`,
+      description: `My final at CodeWorks. Keeper is a Pinterest clone.`,
       icon: 'keeper-logo.png',
       image: "Keeper.png",
       date: 'May 2025',
@@ -61,14 +70,22 @@ export const AppState = reactive({
       tags: ['Logo', 'Adobe Illustrator', 'One Stone'],
       date: 'March 2021'
     }),
-    // new Project({
-    //   name: 'Dreams',
-    //   description: 'A game I made in Roblox Studio. This was my first big building/coding project. 7K+ visits, 90+ favorites.',
-    //   image: "dreams.png",
-    //   tags: ['Game Development', 'Lua', 'Roblox Studio'],
-    //   link: '',
-    //   date: 'September 2019'
-    // })
+    new Project({
+      name: 'Kurbsi',
+      description: "Group project of 4 using the design thinking process to solve a parking finding problem for workers in the downtown Boise area. We ended up creating and presenting an iOS app that finds known free parking zones. I also created the logo.",
+      image: "kurbsi.png",
+      link: '',
+      tags: ['Logo', 'Adobe Illustrator', 'One Stone', 'Group Project', 'Design Thinking'],
+      date: 'March 2022'
+    }),
+    new Project({
+      name: 'Dreams',
+      description: 'A game I made in Roblox Studio. This was my first big building/coding project. 7K+ visits, 90+ favorites.',
+      image: "dreams.png",
+      tags: ['Game Development', 'Lua', 'Roblox Studio'],
+      link: '',
+      date: 'September 2019'
+    })
 
     // new Project({
     //   name: 'TowerBrite',

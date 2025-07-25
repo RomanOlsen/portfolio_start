@@ -2,8 +2,11 @@
 import { AppState } from '@/AppState.js';
 import ProjectCard from '@/components/ProjectCard.vue';
 
-
-const projects = AppState.projects
+// Sort projects by date, newest first
+const projects = AppState.projects.sort((a, b) => {
+  // @ts-ignore
+  return new Date(b.date) - new Date(a.date);
+});
 
 
 </script>
