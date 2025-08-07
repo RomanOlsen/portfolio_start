@@ -85,7 +85,16 @@ export const AppState = reactive({
       tags: ['Game Development', 'Lua', 'Roblox Studio'],
       link: '',
       date: 'September 2019'
-    })
+    }),
+    new Project({
+      name: 'Digital Builders Club',
+      description: 'For the builders of the technology age. Join us today!',
+      image: "dbc.png",
+      tags: ['Online Community', 'Skool'],
+      link: 'https://www.skool.com/digital-builders-club-1240',
+      date: 'August 2025'
+    }),
+
 
     // new Project({
     //   name: 'TowerBrite',

@@ -34,6 +34,7 @@ const tagColors = {
   'One Stone': { bg: '#31AFC5', text: '', icon: 'mdi-school' },
   'Blender': { bg: '#EA7A16', text: '#265787', icon: 'mdi-blender-software' },
   'Lua': { bg: '#000080', text: 'white', icon: 'mdi-language-lua' },
+  'Skool': { text: '#263396', bg: '#D3513E', icon: '' },
 }
 
 const sortedTags = computed(() => {
